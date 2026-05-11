@@ -124,7 +124,7 @@ The `./save` directory is automatically created when running the container. This
 2. **Network**: The `NET_ADMIN` capability is required for Armitage to function properly
 3. **Cleanup**: Package cache is cleaned after installation to minimize image size
 4. **First Run**: The initial build takes 9-10 minutes due to Kali Linux image downloads
-5. **LAN**: Docker will not let you contact other devies on your LAN but can connect to the router and outside your lan
+5. **LAN**: Docker will not let you contact other devies on your LAN but can connect to the router and outside your LAN
    
 ## 🤝 Contributing
 
