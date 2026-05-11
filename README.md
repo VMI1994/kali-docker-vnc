@@ -58,6 +58,7 @@ sudo usermod -aG docker $USER
 
 # Clone the repo
 git clone https://github.com/VMI1994/kali-docker-vnc
+cd kali-docker-vnc
 
 # Run the setup script
 ./setup.sh
