@@ -61,7 +61,7 @@ git clone https://github.com/VMI1994/kali-docker-vnc
 cd kali-docker-vnc
 
 # Run the setup script
-./setup.sh
+bash setup.sh
 ```
 
 ### Access the VNC Desktop
