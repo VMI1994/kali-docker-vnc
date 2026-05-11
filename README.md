@@ -50,7 +50,8 @@ Runs on container startup:
 
 ```bash
 # Ensure Docker is installed
-curl -fsSL https://get.docker.com -o get-docker.sh | bash
+curl -fsSL https://get.docker.com -o get-docker.sh
+bash get-docker.sh
 sudo systemctl enable docker
 sudo systemctl start docker
 sudo usermod -aG docker $USER
