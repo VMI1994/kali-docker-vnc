@@ -2,7 +2,7 @@
 
 A simple Kali Linux instance running in a Docker container, accessible via VNC desktop sharing.
 
-![1](https://github.com/VMI1994/Nascar-Live-Dashboard/blob/main/1.jpg)
+![1](https://github.com/VMI1994/kali-docker-vnc/blob/main/kali.gif)
 
 ## 🚀 Overview
 
