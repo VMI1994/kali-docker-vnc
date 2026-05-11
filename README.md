@@ -48,10 +48,16 @@ Runs on container startup:
 
 ```bash
 # Ensure Docker is installed
-sudo docker build -t kali .
+curl -fsSL https://get.docker.com -o get-docker.sh | bash
+sudo systemctl enable docker
+sudo systemctl start docker
+sudo usermod -aG docker $USER
 
-# Run the container
-./start.sh
+# Clone the repo
+git clone https://github.com/VMI1994/kali-docker-vnc
+
+# Run the setup script
+./setup.sh
 ```
 
 ### Access the VNC Desktop
