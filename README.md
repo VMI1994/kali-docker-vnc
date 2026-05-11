@@ -27,7 +27,7 @@ Creates a Kali Linux rolling image with:
 
 #### setup.sh
 Initial setup script that:
-1. Builds the Docker image (9-10 minutes on first run)
+1. Builds the Docker image (2-14 minutes on first run)
 2. Launches the container with VNC port mapping
 3. Mounts save directory for persistence
 
@@ -65,7 +65,6 @@ git clone https://github.com/VMI1994/kali-docker-vnc && cd kali-docker-vnc && ba
 1. Open your VNC client
 2. Connect to: `127.0.0.1:5901`
 3. Use the password you set during container startup
-4. Alternatively: `vncviewer 127.0.0.1:5901`
 
 ## 🔑 Password Setup
 
@@ -117,7 +116,6 @@ The `./save` directory is automatically created when running the container. This
 ### VNC Settings
 
 - Default display: `:1` (port 5901)
-- Connection: `vncviewer 127.0.0.1:5901`
 - X11 forwarding is enabled by default
 
 ## ⚠️ Important Notes
@@ -126,7 +124,8 @@ The `./save` directory is automatically created when running the container. This
 2. **Network**: The `NET_ADMIN` capability is required for Armitage to function properly
 3. **Cleanup**: Package cache is cleaned after installation to minimize image size
 4. **First Run**: The initial build takes 9-10 minutes due to Kali Linux image downloads
-
+5. **LAN**: Docker will not let you contact other devies on your LAN but can connect to the router and outside your lan
+   
 ## 🤝 Contributing
 
 This project is hosted at: https://github.com/VMI1994/kali-docker-vnc.git
