@@ -2,6 +2,8 @@
 
 A simple Kali Linux instance running in a Docker container, accessible via VNC desktop sharing.
 
+![1](https://github.com/VMI1994/Nascar-Live-Dashboard/blob/main/1.jpg)
+
 ## 🚀 Overview
 
 This project provides a pre-configured Kali Linux desktop environment packaged in a Docker container. The container includes:
